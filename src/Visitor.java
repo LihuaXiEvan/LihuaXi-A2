@@ -1,0 +1,48 @@
+public class Visitor extends Person {
+
+    /**
+     * visit item
+     */
+    private String visitItem;
+
+    /**
+     *  VIP status
+     */
+    private boolean isVIP;
+
+    /**
+     * Default constructor.
+     */
+    public Visitor() {
+    }
+
+    /**
+     * Constructor.
+     * @param name
+     * @param age
+     * @param sex
+     * @param visitItem
+     * @param isVIP
+     */
+    public Visitor(String name, int age, String sex, String visitItem, boolean isVIP) {
+        super(name, age, sex);
+        this.visitItem = visitItem;
+        this.isVIP = isVIP;
+    }
+
+    public String getVisitItem() {
+        return visitItem;
+    }
+
+    public void setVisitItem(String visitItem) {
+        this.visitItem = visitItem;
+    }
+
+    public boolean isVIP() {
+        return isVIP;
+    }
+
+    public void setVIP(boolean VIP) {
+        isVIP = VIP;
+    }
+}
