@@ -1,4 +1,4 @@
-public class Person {
+public abstract class Person {
 
     /**
      * The name of the person.
