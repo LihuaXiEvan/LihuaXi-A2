@@ -47,7 +47,7 @@ public class Visitor extends Person {
     }
 
     public String toTxt() {
-        return super.getName() + "," + super.getSex() + "," + super.getAge() + "," + visitItem + "," + isVIP;
+        return super.getName() + "," + super.getAge() + "," + super.getSex() + "," + visitItem + "," + isVIP;
     }
 
     @Override

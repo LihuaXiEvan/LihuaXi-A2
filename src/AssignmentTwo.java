@@ -19,11 +19,11 @@ public class AssignmentTwo {
                 "Height less than 140cm");
 
 
-        Visitor visitor1 = new Visitor("Charlie Clark", 18, "123456789", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor2 = new Visitor("Frank Foster", 23, "987654321", "The Wizard of Oz", Boolean.TRUE);
-        Visitor visitor3 = new Visitor("Grace Green", 16, "456789123", "The Flash: Speed Force", Boolean.FALSE);
-        Visitor visitor4 = new Visitor("Jack Jackson", 66, "321654987", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor5 = new Visitor("Bob Brown", 34, "789123456", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor1 = new Visitor("Charlie Clark", 18, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor2 = new Visitor("Frank Foster", 23, "boy", "The Wizard of Oz", Boolean.TRUE);
+        Visitor visitor3 = new Visitor("Grace Green", 16, "girl", "The Flash: Speed Force", Boolean.FALSE);
+        Visitor visitor4 = new Visitor("Jack Jackson", 66, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor5 = new Visitor("Bob Brown", 34, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
         ride.addVisitorToQueue(visitor1);
         ride.addVisitorToQueue(visitor2);
         ride.addVisitorToQueue(visitor3);
@@ -45,11 +45,11 @@ public class AssignmentTwo {
                 new Employee("king", 45, "boy", "88888", "Security Department"),
                 "Green Lantern Coaster",
                 "Height less than 140cm");
-        Visitor visitor1 = new Visitor("Charlie Clark", 18, "123456789", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor2 = new Visitor("Frank Foster", 23, "987654321", "The Wizard of Oz", Boolean.TRUE);
-        Visitor visitor3 = new Visitor("Grace Green", 16, "456789123", "The Flash: Speed Force", Boolean.FALSE);
-        Visitor visitor4 = new Visitor("Jack Jackson", 66, "321654987", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor5 = new Visitor("Bob Brown", 34, "789123456", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor1 = new Visitor("Charlie Clark", 18, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor2 = new Visitor("Frank Foster", 23, "boy", "The Wizard of Oz", Boolean.TRUE);
+        Visitor visitor3 = new Visitor("Grace Green", 16, "girl", "The Flash: Speed Force", Boolean.FALSE);
+        Visitor visitor4 = new Visitor("Jack Jackson", 66, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor5 = new Visitor("Bob Brown", 34, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
         ride.addVisitorToHistory(visitor1);
         ride.addVisitorToHistory(visitor2);
         ride.addVisitorToHistory(visitor3);
@@ -71,11 +71,11 @@ public class AssignmentTwo {
                 new Employee("king", 45, "boy", "88888", "Security Department"),
                 "Green Lantern Coaster",
                 "Height less than 140cm");
-        Visitor visitor1 = new Visitor("Charlie Clark", 18, "123456789", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor2 = new Visitor("Frank Foster", 23, "987654321", "The Wizard of Oz", Boolean.TRUE);
-        Visitor visitor3 = new Visitor("Grace Green", 16, "456789123", "The Flash: Speed Force", Boolean.FALSE);
-        Visitor visitor4 = new Visitor("Jack Jackson", 66, "321654987", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor5 = new Visitor("Bob Brown", 34, "789123456", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor1 = new Visitor("Charlie Clark", 18, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor2 = new Visitor("Frank Foster", 23, "boy", "The Wizard of Oz", Boolean.TRUE);
+        Visitor visitor3 = new Visitor("Grace Green", 16, "girl", "The Flash: Speed Force", Boolean.FALSE);
+        Visitor visitor4 = new Visitor("Jack Jackson", 66, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor5 = new Visitor("Bob Brown", 34, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
         ride.addVisitorToHistory(visitor1);
         ride.addVisitorToHistory(visitor2);
         ride.addVisitorToHistory(visitor3);
@@ -100,16 +100,16 @@ public class AssignmentTwo {
                 "Height less than 140cm");
         ride.setMaxRider(3);
 
-        Visitor visitor1 = new Visitor("Charlie Clark", 18, "123456789", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor2 = new Visitor("Frank Foster", 23, "987654321", "The Wizard of Oz", Boolean.TRUE);
-        Visitor visitor3 = new Visitor("Grace Green", 16, "456789123", "The Flash: Speed Force", Boolean.FALSE);
-        Visitor visitor4 = new Visitor("Jack Jackson", 66, "321654987", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor5 = new Visitor("Bob Brown", 34, "789123456", "Flight of the Wicked Witch", Boolean.TRUE);
-        Visitor visitor6 = new Visitor("Sally Smith", 22, "654987321", "Flight of the Wicked Witch", Boolean.FALSE);
-        Visitor visitor7 = new Visitor("Tom Thompson", 45, "321987654", "Flight of the Wicked Witch", Boolean.TRUE);
-        Visitor visitor8 = new Visitor("Harry Harris", 12, "987321654", "Flight of the Wicked Witch", Boolean.FALSE);
-        Visitor visitor9 = new Visitor("Lily Lee", 19, "654321987", "Flight of the Wicked Witch", Boolean.TRUE);
-        Visitor visitor10 = new Visitor("Lucy Liu", 27, "321456789", "Flight of the Wicked Witch", Boolean.FALSE);
+        Visitor visitor1 = new Visitor("Charlie Clark", 18, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor2 = new Visitor("Frank Foster", 23, "boy", "The Wizard of Oz", Boolean.TRUE);
+        Visitor visitor3 = new Visitor("Grace Green", 16, "girl", "The Flash: Speed Force", Boolean.FALSE);
+        Visitor visitor4 = new Visitor("Jack Jackson", 66, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor5 = new Visitor("Bob Brown", 34, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor6 = new Visitor("Sally Smith", 22, "boy", "Flight of the Wicked Witch", Boolean.FALSE);
+        Visitor visitor7 = new Visitor("Tom Thompson", 45, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor8 = new Visitor("Harry Harris", 12, "girl", "Flight of the Wicked Witch", Boolean.FALSE);
+        Visitor visitor9 = new Visitor("Lily Lee", 19, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor10 = new Visitor("Lucy Liu", 27, "boy", "Flight of the Wicked Witch", Boolean.FALSE);
         ride.addVisitorToQueue(visitor1);
         ride.addVisitorToQueue(visitor2);
         ride.addVisitorToQueue(visitor3);
@@ -140,11 +140,11 @@ public class AssignmentTwo {
                 "Green Lantern Coaster",
                 "Height less than 140cm");
 
-        Visitor visitor1 = new Visitor("Charlie Clark", 18, "123456789", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor2 = new Visitor("Frank Foster", 23, "987654321", "The Wizard of Oz", Boolean.TRUE);
-        Visitor visitor3 = new Visitor("Grace Green", 16, "456789123", "The Flash: Speed Force", Boolean.FALSE);
-        Visitor visitor4 = new Visitor("Jack Jackson", 66, "321654987", "The Flash: Speed Force", Boolean.TRUE);
-        Visitor visitor5 = new Visitor("Bob Brown", 34, "789123456", "Flight of the Wicked Witch", Boolean.TRUE);
+        Visitor visitor1 = new Visitor("Charlie Clark", 18, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor2 = new Visitor("Frank Foster", 23, "boy", "The Wizard of Oz", Boolean.TRUE);
+        Visitor visitor3 = new Visitor("Grace Green", 16, "girl", "The Flash: Speed Force", Boolean.FALSE);
+        Visitor visitor4 = new Visitor("Jack Jackson", 66, "boy", "The Flash: Speed Force", Boolean.TRUE);
+        Visitor visitor5 = new Visitor("Bob Brown", 34, "boy", "Flight of the Wicked Witch", Boolean.TRUE);
         ride.addVisitorToHistory(visitor1);
         ride.addVisitorToHistory(visitor2);
         ride.addVisitorToHistory(visitor3);
