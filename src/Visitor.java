@@ -45,4 +45,17 @@ public class Visitor extends Person {
     public void setVIP(boolean VIP) {
         isVIP = VIP;
     }
+
+    public String toTxt() {
+        return super.getName() + "," + super.getSex() + "," + super.getAge() + "," + visitItem + "," + isVIP;
+    }
+
+    @Override
+    public String toString() {
+        return "Visitor{" +
+                super.toString() +
+                " visitItem='" + visitItem + '\'' +
+                ", isVIP=" + isVIP +
+                '}';
+    }
 }
